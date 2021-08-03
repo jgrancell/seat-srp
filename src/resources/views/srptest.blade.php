@@ -4,10 +4,6 @@
 @section('page_header', trans('srp::srp.srp'))
 @section('page_description', trans('srp::srp.test_killmail'))
 
-@push('head')
-<link rel="stylesheet" type="text/css" href="https://snoopy.crypta.tech/snoopy/seat-srp-test.css" />
-@endpush
-
 @section('full')
 
 <!-- TOP BANNER -->
@@ -19,9 +15,6 @@
             </div>
             <div class="card-body">
                 <p>The following page allows you to test a request of SRP from the SRP program. It will download the killmail data, but recalculate each time the request is submitted. This will not create an SRP request</p>
-            </div>
-            <div class="card-footer text-muted">
-                Plugin maintained by <a href="{{ route('srp.about') }}"> {!! img('characters', 'portrait', 96057938, 64, ['class' => 'img-circle eve-icon small-icon']) !!} Crypta Electrica</a>. <span class="float-right snoopy" style="color: #fa3333;"><i class="fas fa-signal"></i></span>
             </div>
         </div>
     </div>

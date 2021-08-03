@@ -3,10 +3,6 @@
 @section('title', trans('srp::srp.request'))
 @section('page_header', trans('srp::srp.request'))
 
-@push('head')
-<link rel="stylesheet" type="text/css" href="https://snoopy.crypta.tech/snoopy/seat-srp-request.css" />
-@endpush
-
 @section('left')
 <div class="card card-success">
     <div class="card-header">
@@ -109,9 +105,6 @@
                 @endforeach
             </tbody>
         </table>
-    </div>
-    <div class="card-footer text-muted">
-        Plugin maintained by <a href="{{ route('srp.about') }}"> {!! img('characters', 'portrait', 96057938, 64, ['class' => 'img-circle eve-icon small-icon']) !!} Crypta Electrica</a>. <span class="float-right snoopy" style="color: #fa3333;"><i class="fas fa-signal"></i></span>
     </div>
 </div>
 @include('srp::includes.insurances-modal')

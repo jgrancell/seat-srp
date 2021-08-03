@@ -7,8 +7,6 @@ This plugin write for [SeAT](https://github.com/eveseat/seat) is providing to yo
 [![Build Status](https://img.shields.io/travis/dysath/seat-srp.svg?style=flat-square)](https://travis-ci.org/dysath/seat-srp)
 [![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square)](https://raw.githubusercontent.com/dysath/seat-srp/master/LICENSE)
 
-If you have issues with this, you can contact me on Eve as **Crypta Electrica**, or on email as 'crypta@crypta.tech'
-
 ## Quick Installation:
 
 In your seat directory (By default:  /var/www/seat), type the following:
@@ -107,6 +105,4 @@ Good luck, and Happy Hunting!!  o7
 
 ## Usage Tracking
 
-In order to get an idea of the usage of this plugin, a very simplistic form of anonymous usage tracking has been implemented.
-
-Read more about the system in use [here](https://github.com/Crypta-Eve/snoopy)
+This fork rips out the shitty version tracking that Crypta-Eve placed in the upstream version, since it's a GDPR violation and the user has no way to opt out of their IP being tracked.
